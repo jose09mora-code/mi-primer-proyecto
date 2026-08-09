@@ -15,9 +15,31 @@ body {
     display: grid;
     place-items: center;
     padding: 24px;
+    gap: 24px;
     background:
         radial-gradient(circle at top left, #c7d2fe 0, transparent 36%),
         linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.aprendizaje {
+    width: min(100%, 620px);
+    padding: 24px 28px;
+    color: #526078;
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(99, 102, 241, 0.12);
+    border-radius: 18px;
+}
+
+.aprendizaje h2 {
+    margin: 0 0 12px;
+    color: #111827;
+    font-size: 1.25rem;
+}
+
+.aprendizaje ul {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.8;
 }
 
 .tarjeta {
