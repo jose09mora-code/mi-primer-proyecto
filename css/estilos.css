@@ -5,6 +5,13 @@
     background: #eef2ff;
 }
 
+body.tema-oscuro {
+    color-scheme: dark;
+    color: #e5e7eb;
+    background: #111827;
+    background-image: radial-gradient(circle at top left, #312e81 0, transparent 36%);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -77,6 +84,13 @@ h1 {
     line-height: 1.7;
 }
 
+.acciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
 button {
     border: 0;
     border-radius: 999px;
@@ -103,4 +117,37 @@ button:focus-visible {
 
 button:active {
     transform: translateY(0);
+}
+
+.boton-secundario {
+    color: #3730a3;
+    background: #e0e7ff;
+    box-shadow: none;
+}
+
+.boton-secundario:hover {
+    color: #312e81;
+    background: #c7d2fe;
+    box-shadow: none;
+}
+
+body.tema-oscuro .tarjeta,
+body.tema-oscuro .aprendizaje {
+    color: #d1d5db;
+    background: rgba(31, 41, 55, 0.94);
+    border-color: rgba(165, 180, 252, 0.2);
+}
+
+body.tema-oscuro h1,
+body.tema-oscuro .aprendizaje h2 {
+    color: #f9fafb;
+}
+
+body.tema-oscuro .mensaje {
+    color: #cbd5e1;
+}
+
+body.tema-oscuro .boton-secundario {
+    color: #eef2ff;
+    background: #4338ca;
 }
